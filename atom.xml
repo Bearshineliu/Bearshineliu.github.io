@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Bearshineliu.github.io</id>
     <title>Bear</title>
-    <updated>2019-10-09T06:20:10.897Z</updated>
+    <updated>2019-10-09T06:23:58.906Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Bearshineliu.github.io"/>
     <link rel="self" href="https://Bearshineliu.github.io/atom.xml"/>
@@ -10,4 +10,17 @@
     <logo>https://Bearshineliu.github.io/images/avatar.png</logo>
     <icon>https://Bearshineliu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Bear</rights>
+    <entry>
+        <title type="html"><![CDATA[合并多文件]]></title>
+        <id>https://Bearshineliu.github.io/post/he-bing-duo-wen-jian</id>
+        <link href="https://Bearshineliu.github.io/post/he-bing-duo-wen-jian">
+        </link>
+        <updated>2019-10-09T06:21:15.000Z</updated>
+        <content type="html"><![CDATA[<p>Table.PromoteHeaders(Csv.Document([Content],[Column=9,Encoding=936]),</p>
+<p>[PromoteAllScalars=true]))</p>
+<p>column=9 表示9列</p>
+<p>Encoding=936 .csv内有汉子转换编码</p>
+<p>函数介绍：https://docs.pbihub.cn/m/_book/Csv.Document.html</p>
+]]></content>
+    </entry>
 </feed>

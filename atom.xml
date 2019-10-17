@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huidodo.club</id>
-    <title>数据分析_数据可视化</title>
-    <updated>2019-10-17T01:48:48.337Z</updated>
+    <title>广告投放_数据分析_数据可视化</title>
+    <updated>2019-10-17T01:50:17.515Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huidodo.club"/>
     <link rel="self" href="https://huidodo.club/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://huidodo.club/images/avatar.png</logo>
     <icon>https://huidodo.club/favicon.ico</icon>
-    <rights>All rights reserved 2019, 数据分析_数据可视化</rights>
+    <rights>All rights reserved 2019, 广告投放_数据分析_数据可视化</rights>
     <entry>
         <title type="html"><![CDATA[百度搜索OCPC_智能加词 产品评估及使用方法]]></title>
         <id>https://huidodo.club/post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa</id>

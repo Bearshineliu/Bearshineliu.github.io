@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huidodo.club</id>
     <title>数据分析_数据可视化</title>
-    <updated>2019-10-17T01:30:20.660Z</updated>
+    <updated>2019-10-17T01:48:48.337Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huidodo.club"/>
     <link rel="self" href="https://huidodo.club/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://huidodo.club/images/avatar.png</logo>
     <icon>https://huidodo.club/favicon.ico</icon>
     <rights>All rights reserved 2019, 数据分析_数据可视化</rights>
+    <entry>
+        <title type="html"><![CDATA[百度搜索OCPC_智能加词 产品评估及使用方法]]></title>
+        <id>https://huidodo.club/post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa</id>
+        <link href="https://huidodo.club/post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">
+        </link>
+        <updated>2019-10-17T01:31:50.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="智能加词">智能加词</h1>
+<p>功能位置：OCPC投放包&gt;智能加词<br>
+功能简介：智能加词将在进入oCPC第二阶段后，每隔三天为您的账户添加一批新的高转化关键词（处于暂停状态），需您主动查看并启用后才会开始投放，请您及时启用</p>
+<h1 id="监控逻辑">监控逻辑</h1>
+<p>通过给智能加词关键词关键词标记OCPC来区别流量转化情况</p>
+<pre><code>自行购买关键词url=**utm_term=关键词
+智能加词关键词url=**utm_term=OCPC_关键词
+</code></pre>
+<h1 id="分组监控对比">分组监控对比</h1>
+<p>GA统计筛选关键词包含OCPC关键词转化率<br>
+<img src="https://huidodo.club/post-images/1571276580187.png" alt=""></p>
+<h1 id="通过以上数据对比可以新产品功能进行评估对异常关键词进行修改">通过以上数据对比，可以新产品功能进行评估，对异常关键词进行修改。</h1>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[git page]]></title>
         <id>https://huidodo.club/post/git-page</id>

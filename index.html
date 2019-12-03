@@ -1,347 +1,276 @@
+
 <html>
+  <head>
+    
+<meta charset="utf-8" >
 
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    广告投放_数据分析_数据可视化
-</title>
-<link rel="shortcut icon" href="https://huidodo.club/favicon.ico?v=1571724400528">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<title>广告投放_数据分析_数据可视化</title>
+<meta name="description" content="人的一生 或浓郁烈海 或淡如白水 关键你从中得到什么！">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://huidodo.club//favicon.ico?v=1575338394423">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://huidodo.club/styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://huidodo.club/media/js/jquery.sticky-sidebar.min.js"></script>
+<link rel="stylesheet" href="https://huidodo.club//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149705198-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-149705198-1');
-    </script>
-    
-</head>
-
-<body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://huidodo.club">
-                <img class="avatar" src="https://huidodo.club/images/avatar.png?v=1571724400528" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    广告投放_数据分析_数据可视化
-                </h1>
-            </div>
-        </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
-                
-                    
-                            <li>
-                                <a href="https://Bearshineliu.github.io" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://Bearshineliu.github.io/archives" class="menu">
-                                    归档
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://Bearshineliu.github.io/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
-        </div>
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://huidodo.club/">
+        <img class="avatar" src="https://huidodo.club//images/avatar.png?v=1575338394423" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://huidodo.club/">
+        <h1 class="site-title">广告投放_数据分析_数据可视化</h1>
+      </a>
     </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
-
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
-
-        });
-    });
-</script>
-
-            <div id="main-content" class="post-container main-container">
-                <div id="content" class="main-container-left">
-                    
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
         
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://huidodo.club/post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">
-                        百度搜索OCPC_智能加词 产品评估及使用方法
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2019-10-17</time>
-                    
-                        <a href="https://huidodo.club/tag/TvIyCY2N_" class="post-tag i-tag
-                            i-tag-">
-            #SEM
-        </a>
-                        
-                        <a href="https://huidodo.club/tag/rjs5B620I" class="post-tag i-tag
-                            i-tag-warning">
-            #百度搜索
-        </a>
-                        
-                </div>
-                <div class="post-article">
-                    
-                        <a href="https://huidodo.club/post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa" class="post-feature-image" style="background-image:url(https://bdyingxiaocms.cdn.bcebos.com/2019-09-18/5d81f47fc9970.jpg) ">
-                        </a>
-                        
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            智能加词
-功能位置：OCPC投放包&amp;gt;智能加词
-功能简介：智能加词将在进入oCPC第二阶段后，每隔三天为您的账户添加一批新的高转化关键词（处于暂停状态），需您主动查看并启用后才会开始投放，请您及时启用
-监控逻辑
-通过给智能加词关键词关键词标记OCPC来区别流量转化情况
-自行购买关键词url=**utm_term=关键词
- 智能加词关键词url=**utm_term=OCPC_关键词
-
-分组监控对比
-GA统计筛选关键词包含OCPC关键词转化率
-
-通过以上数据对比，可以新产品功能进行评估，对异常关键词进行修改。
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://huidodo.club/post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://huidodo.club/post/git-page">
-                        git page
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2019-10-14</time>
-                    
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            https://www.cnblogs.com/ztoz/p/5515475.html
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://huidodo.club/post/git-page">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://huidodo.club/post/git-ssh">
-                        git ssh
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2019-10-10</time>
-                    
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            Git是分布式的代码管理工具，远程的代码管理是基于SSH的，所以要使用远程的Git则需要SSH的配置。
-github的SSH配置如下：
-1 、设置Git的user name和email：
-$ git config --global user.name &amp;quot;xuhaiyan&amp;quot;
-$ git config --global user.email &amp;quot;haiyan.xu.vip@gmail.com&amp;quot;
-2、生成SSH密钥过程：
-1）查看是否已经有了ssh密钥：cd ~/.ssh
-如果没有密钥则不会有此文件夹，有则备份删除
-2）生存密钥：
-$ ssh-keygen -t rsa -C “haiyan.xu.vip@gmail.com”
-按3个回车，密码为空。
-Your identification has been saved in /home/tekkub/.ssh/id_rsa.
-Your public key has been saved in /home/tekkub/.ssh/id_rsa.pub.
-The key fingerprint is:
-最后得到了两个文件：id_rsa和id_rsa.pub
-3）添加密钥到ssh：ssh-add 文件名
-需要之前输入密码。
-4）在github上添加ssh密钥，这要添加的是“id_rsa.pub”里面的公钥。
-打开https://github.com/ ，登陆xuhaiyan825，然后添加ssh。
-5）测试：ssh git@github.com
-The authenticity of host ‘github.com (207.97.227.239)’ can’t be established.
-RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added ‘github.com,207.97.227.239′ (RSA) to the list of known hosts.
-ERROR: Hi tekkub! You’ve successfully authenticated, but GitHub does not provide shell access
-Connection to github.com closed.
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://huidodo.club/post/git-ssh">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://huidodo.club/post/dao-hang">
-                        导航
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2019-10-10</time>
-                    
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            开源项目
-WebStack-Laravel
-GIT 部署
-git clone https://github.com/hui-ho/WebStack-Laravel.git
+          <a href="https://Bearshineliu.github.io" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://Bearshineliu.github.io/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://Bearshineliu.github.io/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
 
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://huidodo.club/post/dao-hang">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://huidodo.club/post/he-bing-duo-wen-jian">
-                        合并多文件
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2019-10-09</time>
-                    
-                        <a href="https://huidodo.club/tag/pHz2Ot75x" class="post-tag i-tag
-                            i-tag-">
-            #Power Bi
-        </a>
-                        
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            Table.PromoteHeaders(Csv.Document([Content],[Column=9,Encoding=936]),
-[PromoteAllScalars=true]))
-column=9 表示9列
-Encoding=936 .csv内有汉子转换编码
-函数介绍：https://docs.pbihub.cn/m/_book/Csv.Document.html
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://huidodo.club/post/he-bing-duo-wen-jian">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-                <!-- 翻页 -->
-                
-                </div>
-                <!--  -->
-                <div class="main-container-middle"></div>
-                <!--  -->
-                <div id="sidebar" class="main-container-right">
-
-                    <!-- 个人信息 -->
-                    
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://huidodo.club/images/avatar.png?v=1571724400528)">
-        </div>
-        <h1 class="id_card-title">
-            广告投放_数据分析_数据可视化
-        </h1>
-        <h2 class="id_card-description">
-            人的一生 或浓郁烈海 或淡如白水 关键你从众得到什么！
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
-
-        </div>
+      <div class="content-container">
+        
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://huidodo.club//post/tu-biao-bu-ju-te-dian">
+        <h2 class="post-title">图标布局特点</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-12-02</span>
+        
+      </div>
     </div>
     
+  </section>
 
-                        <!-- 公告栏 -->
-                        
+<section class="post-item">
+    <div class="content">
+      <a href="https://huidodo.club//post/yan-se">
+        <h2 class="post-title">颜色</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-12-02</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://huidodo.club//tag/h-dweSOV1">
+                图表配色
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
 
-                </div>
-            </div>
+<section class="post-item">
+    <div class="content">
+      <a href="https://huidodo.club//post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">
+        <h2 class="post-title">百度搜索OCPC_智能加词 产品评估及使用方法</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-10-17</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://huidodo.club//tag/TvIyCY2N_">
+                SEM
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://huidodo.club//tag/rjs5B620I">
+                百度搜索
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://huidodo.club//post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">
+        <div class="feature-container" style="background-image: url('https://bdyingxiaocms.cdn.bcebos.com/2019-09-18/5d81f47fc9970.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://huidodo.club//post/git-page">
+        <h2 class="post-title">git page</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-10-14</span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://huidodo.club//post/git-ssh">
+        <h2 class="post-title">git ssh</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-10-10</span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://huidodo.club//post/dao-hang">
+        <h2 class="post-title">导航</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-10-10</span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://huidodo.club//post/he-bing-duo-wen-jian">
+        <h2 class="post-title">合并多文件</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-10-09</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://huidodo.club//tag/pHz2Ot75x">
+                Power Bi
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
 
 
-
-            <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="https://huidodo.club/atom.xml" target="_blank">RSS</a>
+<div class="pagination-container">
+  
+  
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">人的一生 或浓郁烈海 或淡如白水 关键你从中得到什么！</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://huidodo.club//atom.xml" target="_blank">RSS</a>
+</div>
+
 
     </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
-</body>
+    <script type="application/javascript">
 
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
 </html>

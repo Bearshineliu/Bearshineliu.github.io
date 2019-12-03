@@ -1,219 +1,179 @@
+
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    合并多文件 | 广告投放_数据分析_数据可视化
-</title>
-<link rel="shortcut icon" href="https://huidodo.club/favicon.ico?v=1571724400528">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://huidodo.club/styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://huidodo.club/media/js/jquery.sticky-sidebar.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
-
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149705198-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-149705198-1');
-    </script>
+  <head>
     
-        
-            
-                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-                
+<meta charset="utf-8" >
 
-                    
-                            
-</head>
+<title>合并多文件 | 广告投放_数据分析_数据可视化</title>
+<meta name="description" content="人的一生 或浓郁烈海 或淡如白水 关键你从中得到什么！">
 
-<body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://huidodo.club">
-                <img class="avatar" src="https://huidodo.club/images/avatar.png?v=1571724400528" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    广告投放_数据分析_数据可视化
-                </h1>
-            </div>
-        </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
-                
-                    
-                            <li>
-                                <a href="https://Bearshineliu.github.io" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://Bearshineliu.github.io/archives" class="menu">
-                                    归档
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://Bearshineliu.github.io/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
-        </div>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://huidodo.club//favicon.ico?v=1575338394423">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://huidodo.club//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://huidodo.club/">
+        <img class="avatar" src="https://huidodo.club//images/avatar.png?v=1575338394423" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://huidodo.club/">
+        <h1 class="site-title">广告投放_数据分析_数据可视化</h1>
+      </a>
     </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://Bearshineliu.github.io" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://Bearshineliu.github.io/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://Bearshineliu.github.io/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
 
-        });
-    });
-</script>
-
-            <div id="main-content" class="post-detail main-container">
-                <!-- left -->
-                <div id="content" class="main-container-left">
-                    <article class="post i-card">
-                        <h2 class="post-title">
-                            合并多文件
-                        </h2>
-                        <div class="post-info">
-                            <time class="post-time">2019-10-09</time>
-                            
-                                <a href="https://huidodo.club/tag/pHz2Ot75x" class="post-tag i-tag
-                            i-tag-other_1">
-                            #Power Bi
-                        </a>
-                                
-                        </div>
-                        
-                                <div class="post-content">
-                                    <p>Table.PromoteHeaders(Csv.Document([Content],[Column=9,Encoding=936]),</p>
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">合并多文件</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-10-09</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://huidodo.club//tag/pHz2Ot75x">
+                    Power Bi
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p>Table.PromoteHeaders(Csv.Document([Content],[Column=9,Encoding=936]),</p>
 <p>[PromoteAllScalars=true]))</p>
 <p>column=9 表示9列</p>
 <p>Encoding=936 .csv内有汉子转换编码</p>
 <p>函数介绍：https://docs.pbihub.cn/m/_book/Csv.Document.html</p>
 
-                                </div>
-                    </article>
-                    <!--  -->
-                    
-                            <div id="disqus_thread"></div>
-                            <div id="gitalk-container"></div>
-                </div>
-                <!-- middle -->
-                <div class="main-container-middle"></div>
-                <!-- right -->
-                <div id="sidebar" class="main-container-right">
-                    
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://huidodo.club/images/avatar.png?v=1571724400528)">
+          </div>
         </div>
-        <h1 class="id_card-title">
-            广告投放_数据分析_数据可视化
-        </h1>
-        <h2 class="id_card-description">
-            人的一生 或浓郁烈海 或淡如白水 关键你从众得到什么！
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
 
-        </div>
-    </div>
+        
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">人的一生 或浓郁烈海 或淡如白水 关键你从中得到什么！</div>
+  <div class="social-container">
     
-                                    
-
-                </div>
-
-
-
-
-            </div>
-
-
-            <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="https://huidodo.club/atom.xml" target="_blank">RSS</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://huidodo.club//atom.xml" target="_blank">RSS</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
 
     </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
-    
-        
-            <script>
-    window.onload = function() {
-        var gitalk = new Gitalk({
-            clientID: '599aca25d384e0783e48',
-            clientSecret: '30475f7e648bb6de0f4ce15cd25bef53934a8f4f',
-            repo: 'comment',
-            owner: 'Bearshineliu',
-            admin: ['Bearshineliu'],
-            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
-            distractionFreeMode: false // Facebook-like distraction free mode
-        })
+    <script type="application/javascript">
 
-        gitalk.render('gitalk-container')
-    }
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
-                
 
-                    
-                                
-</body>
 
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '599aca25d384e0783e48',
+        clientSecret: '30475f7e648bb6de0f4ce15cd25bef53934a8f4f',
+        repo: 'comment',
+        owner: 'Bearshineliu',
+        admin: ['Bearshineliu'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
 </html>

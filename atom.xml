@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://huidodo.club</id>
+    <id>https://huidodo.club/</id>
     <title>广告投放_数据分析_数据可视化</title>
-    <updated>2019-10-22T06:06:42.168Z</updated>
+    <updated>2019-12-03T01:59:55.995Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://huidodo.club"/>
-    <link rel="self" href="https://huidodo.club/atom.xml"/>
-    <subtitle>人的一生 或浓郁烈海 或淡如白水 关键你从众得到什么！</subtitle>
-    <logo>https://huidodo.club/images/avatar.png</logo>
-    <icon>https://huidodo.club/favicon.ico</icon>
+    <link rel="alternate" href="https://huidodo.club/"/>
+    <link rel="self" href="https://huidodo.club//atom.xml"/>
+    <subtitle>人的一生 或浓郁烈海 或淡如白水 关键你从中得到什么！</subtitle>
+    <logo>https://huidodo.club//images/avatar.png</logo>
+    <icon>https://huidodo.club//favicon.ico</icon>
     <rights>All rights reserved 2019, 广告投放_数据分析_数据可视化</rights>
     <entry>
+        <title type="html"><![CDATA[图标布局特点]]></title>
+        <id>https://huidodo.club//post/tu-biao-bu-ju-te-dian</id>
+        <link href="https://huidodo.club//post/tu-biao-bu-ju-te-dian">
+        </link>
+        <updated>2019-12-02T08:39:15.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://huidodo.club//post-images/1575276049822.png" alt=""></figure>
+<h1 id="完整的图表要素">完整的图表要素</h1>
+<h2 id="主标题中表达明确的信息和观点副标题进行详细的论述">主标题中表达明确的信息和观点，副标题进行详细的论述</h2>
+<h1 id="突出标题区">突出标题区</h1>
+<h2 id="标题区占13-12-硕大无比的图反而显得粗糙">标题区占1/3 1/2 硕大无比的图反而显得粗糙</h2>
+<h1 id="竖向的构图方式">竖向的构图方式</h1>
+<h2 id="图标外围高度-21-或者11-竖向构图避免视角长距离检索">图标外围高度 2：1 或者1：1  竖向构图避免视角长距离检索</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[颜色]]></title>
+        <id>https://huidodo.club//post/yan-se</id>
+        <link href="https://huidodo.club//post/yan-se">
+        </link>
+        <updated>2019-12-02T08:29:15.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://huidodo.club//post-images/1575275599749.png" alt=""><br>
+0,81,107<br>
+90,146,181<br>
+0,166,231</p>
+<p><img src="https://huidodo.club//post-images/1575275751443.png" alt=""><br>
+0,56,115<br>
+247,0,0<br>
+206,219,231<br>
+231,239,247</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[百度搜索OCPC_智能加词 产品评估及使用方法]]></title>
-        <id>https://huidodo.club/post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa</id>
-        <link href="https://huidodo.club/post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">
+        <id>https://huidodo.club//post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa</id>
+        <link href="https://huidodo.club//post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">
         </link>
         <updated>2019-10-17T01:31:50.000Z</updated>
         <content type="html"><![CDATA[<h1 id="智能加词">智能加词</h1>
@@ -21,19 +53,18 @@
 功能简介：智能加词将在进入oCPC第二阶段后，每隔三天为您的账户添加一批新的高转化关键词（处于暂停状态），需您主动查看并启用后才会开始投放，请您及时启用</p>
 <h1 id="监控逻辑">监控逻辑</h1>
 <p>通过给智能加词关键词关键词标记OCPC来区别流量转化情况</p>
-<pre><code>自行购买关键词url=**utm_term=关键词
- 智能加词关键词url=**utm_term=OCPC_关键词
+<pre><code>智能加词关键词url加参&amp;OCPC智能加词
 </code></pre>
 <h1 id="分组监控对比">分组监控对比</h1>
-<p>GA统计筛选关键词包含OCPC关键词转化率<br>
-<img src="https://huidodo.club/post-images/1571276580187.png" alt=""></p>
+<p>GA统计筛选URL字段中包含‘OCPC智能加词’ 流量转化率<br>
+<img src="https://huidodo.club//post-images/1571276580187.png" alt=""></p>
 <h1 id="通过以上数据对比可以新产品功能进行评估对异常关键词进行修改">通过以上数据对比，可以新产品功能进行评估，对异常关键词进行修改。</h1>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[git page]]></title>
-        <id>https://huidodo.club/post/git-page</id>
-        <link href="https://huidodo.club/post/git-page">
+        <id>https://huidodo.club//post/git-page</id>
+        <link href="https://huidodo.club//post/git-page">
         </link>
         <updated>2019-10-14T05:58:10.000Z</updated>
         <content type="html"><![CDATA[<p>https://www.cnblogs.com/ztoz/p/5515475.html</p>
@@ -41,8 +72,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[git ssh]]></title>
-        <id>https://huidodo.club/post/git-ssh</id>
-        <link href="https://huidodo.club/post/git-ssh">
+        <id>https://huidodo.club//post/git-ssh</id>
+        <link href="https://huidodo.club//post/git-ssh">
         </link>
         <updated>2019-10-10T07:57:24.000Z</updated>
         <content type="html"><![CDATA[<p>Git是分布式的代码管理工具，远程的代码管理是基于SSH的，所以要使用远程的Git则需要SSH的配置。<br>
@@ -75,8 +106,8 @@ Connection to github.com closed.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[导航]]></title>
-        <id>https://huidodo.club/post/dao-hang</id>
-        <link href="https://huidodo.club/post/dao-hang">
+        <id>https://huidodo.club//post/dao-hang</id>
+        <link href="https://huidodo.club//post/dao-hang">
         </link>
         <updated>2019-10-10T05:54:04.000Z</updated>
         <content type="html"><![CDATA[<p>开源项目<br>
@@ -84,13 +115,13 @@ WebStack-Laravel</p>
 <p>GIT 部署</p>
 <pre><code>git clone https://github.com/hui-ho/WebStack-Laravel.git
 </code></pre>
-<p><img src="https://huidodo.club/post-images/1570686915715.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://huidodo.club//post-images/1570686915715.png" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[合并多文件]]></title>
-        <id>https://huidodo.club/post/he-bing-duo-wen-jian</id>
-        <link href="https://huidodo.club/post/he-bing-duo-wen-jian">
+        <id>https://huidodo.club//post/he-bing-duo-wen-jian</id>
+        <link href="https://huidodo.club//post/he-bing-duo-wen-jian">
         </link>
         <updated>2019-10-09T06:21:15.000Z</updated>
         <content type="html"><![CDATA[<p>Table.PromoteHeaders(Csv.Document([Content],[Column=9,Encoding=936]),</p>

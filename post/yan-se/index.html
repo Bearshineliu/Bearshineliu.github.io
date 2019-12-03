@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>广告投放_数据分析_数据可视化</title>
+<title>颜色 | 广告投放_数据分析_数据可视化</title>
 <meta name="description" content="人的一生 或浓郁烈海 或淡如白水 关键你从中得到什么！">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -14,6 +16,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://huidodo.club//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -69,98 +77,58 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          
+          <h2 class="post-title">颜色</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-12-02</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://huidodo.club//tag/h-dweSOV1">
+                    图表配色
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p><img src="https://huidodo.club//post-images/1575275599749.png" alt=""><br>
+0,81,107<br>
+90,146,181<br>
+0,166,231</p>
+<p><img src="https://huidodo.club//post-images/1575275751443.png" alt=""><br>
+0,56,115<br>
+247,0,0<br>
+206,219,231<br>
+231,239,247</p>
 
-<div class="archives-container">
-  
-    <h2 class="year">2019</h2>
-    
-      
-        <article class="post">
-          <a href="https://huidodo.club//post/tu-biao-bu-ju-te-dian">
-            <h2 class="post-title">
-              图标布局特点
-              <small>2019-12-02</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://huidodo.club//post/yan-se">
-            <h2 class="post-title">
-              颜色
-              <small>2019-12-02</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://huidodo.club//post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">
-            <h2 class="post-title">
-              百度搜索OCPC_智能加词 产品评估及使用方法
-              <small>2019-10-17</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://huidodo.club//post/git-page">
-            <h2 class="post-title">
-              git page
-              <small>2019-10-14</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://huidodo.club//post/git-ssh">
-            <h2 class="post-title">
-              git ssh
-              <small>2019-10-10</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://huidodo.club//post/dao-hang">
-            <h2 class="post-title">
-              导航
-              <small>2019-10-10</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://huidodo.club//post/he-bing-duo-wen-jian">
-            <h2 class="post-title">
-              合并多文件
-              <small>2019-10-09</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
-</div>
-
-
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://huidodo.club//post/bai-du-sou-suo-ocpc_-zhi-neng-jia-ci-chan-pin-ping-gu-ji-shi-yong-fang-fa">
+              <h3 class="post-title">
+                下一篇：百度搜索OCPC_智能加词 产品评估及使用方法
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
   <div class="slogan">人的一生 或浓郁烈海 或淡如白水 关键你从中得到什么！</div>
   <div class="social-container">
     
@@ -179,8 +147,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -195,7 +163,29 @@ var app = new Vue({
 
 
 
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
 
-    </div>
+      var gitalk = new Gitalk({
+        clientID: '599aca25d384e0783e48',
+        clientSecret: '30475f7e648bb6de0f4ce15cd25bef53934a8f4f',
+        repo: 'comment',
+        owner: 'Bearshineliu',
+        admin: ['Bearshineliu'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

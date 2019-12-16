@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huidodo.club/</id>
     <title>liu&apos;Blog</title>
-    <updated>2019-12-16T07:53:14.742Z</updated>
+    <updated>2019-12-16T08:01:52.151Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huidodo.club/"/>
     <link rel="self" href="https://huidodo.club//atom.xml"/>
@@ -12,6 +12,15 @@
     <logo>https://huidodo.club//images/avatar.png</logo>
     <icon>https://huidodo.club//favicon.ico</icon>
     <rights>All rights reserved 2019, liu&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[智能关键词匹配]]></title>
+        <id>https://huidodo.club//post/zhi-neng-guan-jian-ci-pi-pei</id>
+        <link href="https://huidodo.club//post/zhi-neng-guan-jian-ci-pi-pei">
+        </link>
+        <updated>2019-12-16T08:00:42.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://huidodo.club//post-images/1576483301517.png" alt=""></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[参考]]></title>
         <id>https://huidodo.club//post/can-kao</id>
